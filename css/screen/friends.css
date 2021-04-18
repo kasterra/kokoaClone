@@ -1,0 +1,7 @@
+.name-display{
+    display:block;
+    border-radius:10px;
+    background-color:#fafafa;
+    text-align: center;
+    padding:15px 0px;
+}

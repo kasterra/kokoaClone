@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to Cocoa clone</title>
-    <link rel="stylesheet" href="style/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
     <header class="status-bar">
@@ -20,7 +20,22 @@
         </div>
     </header>
 
-    
+    <main class="index-main">
+        <div class="index-main__texts">
+            <h1 class="index-main__title">Welcome to Cocoa Clone</h1>
+            <span class="index-main__subtitle">
+                If you have Cocoa Account, <br>log in with your email or phone number.
+            </span>
+        </div>
+
+        <form class="index-main__login" action="friends.html" method="GET">
+            <input type="text" required="true" placeholder="email or phone number"/>
+            <input type="password" required="true" placeholder="password"/>
+            <input type="submit" value="Log in">
+        </form>
+
+        <a href="#">Find Cocoa Account or password</a>
+    </main>
     <script src="fontawesome/js/all.min.js"></script>
 </body>
 </html>
