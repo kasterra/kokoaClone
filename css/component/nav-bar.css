@@ -1,0 +1,26 @@
+.nav-bar{
+    box-sizing: border-box;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:fixed;
+    bottom:5px;
+    z-index:2;
+}
+
+.nav-bar a{
+    display:block;
+    margin:5px 60px;
+    position:relative;
+}
+
+.nav-bar a, .nav-bar a.hover, .nav-bar a.visited{
+    color:inherit;
+    text-decoration: inherit;
+}
+
+.nav-bar__alert{
+    position:absolute;
+    bottom:15px;
+    left:15px;
+}

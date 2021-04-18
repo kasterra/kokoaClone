@@ -1,6 +1,12 @@
 .status-bar{
+    position:fixed;
+    top:5px;
+    left:0;
+    right:0;
     display:flex;
     justify-content: center;
+    background-color:white;
+    z-index:2;
 }
 .status-bar div{
     width:33%;

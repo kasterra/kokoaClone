@@ -1,7 +1,39 @@
+.friends-body{
+    height:200vh;
+}
+
 .name-display{
     display:block;
     border-radius:10px;
     background-color:#fafafa;
     text-align: center;
     padding:15px 0px;
+}
+
+.friends-screen__channel{
+    display:flex;
+    flex-direction:column;
+
+}
+.friends-screen__channel__column{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+}
+.friends-screen__channel__title{
+    font-size:25px;
+}
+.friends-screen__channel__header{
+    border-top:var(--border);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px;
+}
+.friends-screen__channel__header *, .friends-screen__friend__header *{
+    color:rgba(0,0,0,0.4);
+}
+.friends-screen__channel__footer{
+    border-bottom:var(--border);
 }

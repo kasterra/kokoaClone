@@ -1,0 +1,37 @@
+.user-component{
+    display:flex;
+    justify-content:space-between;
+    margin:15px 0px;
+}
+.user-component__column:first-child{
+    display:flex;
+    align-items:center;
+}
+.user-component__profile{
+    width:50px;
+    height:50px;
+    border-radius:20px;
+}
+.user-component__profile--lg{
+    width:80px;
+    height:80px;
+    border-radius:30px;
+}
+.user-component__text{
+    display:flex;
+    flex-direction:column;
+    margin-left:20px;
+}
+.user-component__text--bold span{
+    font-weight:bold;
+}
+.user-component__title{
+    font-size:30px;
+}
+.user-component__subtitle{
+    font-size:20px;
+}
+
+.time{
+    border-bottom:10px;
+}
