@@ -17,6 +17,11 @@
     height:80px;
     border-radius:30px;
 }
+.user-component__profile--xs{
+    width:20px;
+    height:20px;
+    border-radius:5px;
+}
 .user-component__text{
     display:flex;
     flex-direction:column;

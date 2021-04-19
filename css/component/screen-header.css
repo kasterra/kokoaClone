@@ -1,3 +1,16 @@
+@keyframes cogspin{
+	0%{
+		transform:rotateZ(0deg);
+	}
+	50%{
+		transform:rotateZ(180deg);
+	}
+	100%{
+		transform:rotateZ(0deg);
+	}
+	
+}
+
 .screen-header{
     display:flex;
     align-items: center;
@@ -16,4 +29,8 @@
 .screen-header__icons span{
     display:block;
     margin:0 10px;
+}
+
+.screen-header__icons .fa-cog:hover{
+	animation:cogspin 1s linear infinite;
 }

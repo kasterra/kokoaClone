@@ -1,0 +1,22 @@
+.icon-list{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:90vw;
+	border-bottom:1px solid rgba(0,0,0,0.3);
+}
+.icon-list--no-bottom-border{
+	border-bottom:none;
+}
+.icon-list__icon{
+	width:50px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	align-items:center;
+	padding:10px 0px;
+}
+.icon-list__icon span{
+	margin-top:10px;
+	text-align:center;
+}
